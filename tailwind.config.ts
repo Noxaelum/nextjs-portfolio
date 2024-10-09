@@ -12,11 +12,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "sly-background": "#1D0630",
+        "sly-primary": "#C5ACDA",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      scrollPadding: {
+        nav: "var(--nav-height)",
       },
     },
   },
