@@ -2,7 +2,7 @@ import { NAV_LINK_VALUES } from "@/lib/values";
 import { Button } from "../atoms/button";
 import Link from "next/link";
 import { useContext } from "react";
-import { ViewContext } from "@/app/page";
+import { ViewContext } from "@/lib/NavbarContext";
 
 export default function NavLinkList() {
   const visibleSection = useContext(ViewContext);

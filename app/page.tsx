@@ -1,12 +1,11 @@
 "use client";
 
-import useNavHeightGetter from "@/lib/useNavHeightGetter";
+import useNavHeightGetter from "@/hooks/useNavHeightGetter";
 import { InView } from "react-intersection-observer";
-import React, { createContext, useState } from "react";
+import React, { useState } from "react";
 import { HOME_VALUES } from "@/lib/values";
 import Navbar from "@/app/_components/organisms/navbar";
-
-export const ViewContext = createContext("");
+import { ViewContext } from "@/lib/NavbarContext";
 
 export default function Home() {
   useNavHeightGetter();
